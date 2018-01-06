@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dojo10"
+    tools:context="com.example.sven.ninja_test.HelpActivity">
+
+
+    <ImageView
+        android:id="@+id/tafel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/blackboard"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <ImageView
+        android:id="@+id/howto1"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        app:srcCompat="@drawable/howto1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp" />
+
+    <ImageView
+        android:id="@+id/howto2"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        app:srcCompat="@drawable/howto2"
+        android:layout_alignTop="@+id/howto1"
+        android:layout_alignLeft="@+id/howto1"
+        android:layout_alignStart="@+id/howto1"
+        android:visibility="invisible"/>
+    <ImageView
+        android:id="@+id/howto3"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        app:srcCompat="@drawable/howto3"
+        android:layout_alignTop="@+id/howto1"
+        android:layout_alignLeft="@+id/howto1"
+        android:layout_alignStart="@+id/howto1"
+        android:visibility="invisible"
+
+        />
+
+    <ImageView
+        android:id="@+id/howto4"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        app:srcCompat="@drawable/howto4"
+        android:layout_alignTop="@+id/howto1"
+        android:layout_alignLeft="@+id/howto1"
+        android:layout_alignStart="@+id/howto1"
+        android:layout_marginTop="13dp"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/howto5"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        app:srcCompat="@drawable/howto5"
+        android:layout_alignTop="@+id/howto1"
+        android:layout_alignLeft="@+id/howto1"
+        android:layout_alignStart="@+id/howto1"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/tutorial"
+        android:layout_width="350dp"
+        android:layout_height="220dp"
+        android:layout_alignBottom="@+id/howto1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        />
+
+</RelativeLayout>

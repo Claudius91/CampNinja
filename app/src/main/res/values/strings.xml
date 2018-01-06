@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Camp Ninja</string>
+    <string name="gameover">Game Over</string>
+    <string name="runden">Runden: </string>
+</resources>

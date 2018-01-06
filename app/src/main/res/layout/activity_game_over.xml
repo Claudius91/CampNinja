@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dojo2"
+    tools:context="com.example.sven.ninja_test.GameOverActivity">
+
+    <TextView
+        android:id="@+id/Game_over"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gameover"
+        android:textColor="@color/hell_braun"
+        android:textSize="40sp"
+        android:shadowColor="@color/hell_braun"
+        android:shadowRadius="8"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/runden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Game_over"
+        android:layout_marginLeft="58dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="80dp"
+        android:textSize="35sp"
+        android:text="@string/runden"
+        android:textColor="@color/sand"
+        android:shadowColor="@color/schwarz"
+        android:shadowRadius="2"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/runden"
+        android:layout_alignStart="@+id/runden"
+        android:layout_below="@+id/runden"
+        android:layout_marginTop="25dp"
+        android:text="TextView"
+        android:textColor="@color/sand"
+        android:shadowColor="@color/braun"
+        android:shadowRadius="5"
+        android:textSize="25sp"/>
+
+    <ImageView
+        android:id="@+id/neustart"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/neuerversuch"
+        android:layout_marginBottom="134dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/muenzen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/score"
+        android:layout_alignLeft="@+id/score"
+        android:layout_alignStart="@+id/score"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/sand"
+        android:shadowColor="@color/schwarz"
+        android:shadowRadius="5"
+        android:textSize="25sp"
+        android:layout_centerVertical="true"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/statistik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonstatistik"
+        android:text="Statistics"
+        android:textColor="@color/weiß"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="57dp" />
+
+</RelativeLayout>

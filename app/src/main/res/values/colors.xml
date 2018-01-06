@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="game_over">#F90806</color>
+    <color name="rot">#f34235</color>
+    <color name="weiß">#FFFFFF</color>
+    <color name="schwarz">#000000</color>
+    <color name="braun">#7F4B05</color>
+    <color name="hell_braun">#B27017</color>
+    <color name="schwarzHell">#333333</color>
+    <color name="sand">#e1b56a</color>
+    <color name="gelb">#FDFE1D</color>
+</resources>

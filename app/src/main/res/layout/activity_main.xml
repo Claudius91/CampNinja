@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dojo10"
+    tools:context="com.example.sven.ninja_test.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/titelbild"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/titelbild"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/panda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/panda"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/titelbild"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <ImageView
+        android:id="@+id/waffe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/titelbild"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/titelbild"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        app:srcCompat="@drawable/icon_add1" />
+
+
+    <ImageView
+        android:id="@+id/startbutton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/start"
+        android:layout_below="@id/panda"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
+
+    <ImageView
+    android:id="@+id/option"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="19dp"
+    android:src="@drawable/gear"
+    android:layout_alignBottom="@+id/waffe"
+    android:layout_alignLeft="@+id/titelbild"
+    android:layout_alignStart="@+id/titelbild"
+    android:layout_marginStart="19dp" />
+
+
+
+</RelativeLayout>

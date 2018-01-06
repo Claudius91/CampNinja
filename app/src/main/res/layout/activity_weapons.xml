@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sven.ninja_test.WeaponActivity"
+    android:background="@drawable/dojo10">
+
+
+
+        <TextView
+            android:id="@+id/coins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/weapons"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp"
+            android:text="TextView"
+            android:textStyle="bold"
+            android:textColor="@color/schwarz"
+            android:shadowColor="@color/weiß"
+            android:shadowRadius="2"
+            android:textSize="55sp"/>
+
+        <GridView
+            android:id="@+id/grid_weapons"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="40dp"
+            android:numColumns="auto_fit"
+            android:verticalSpacing="40dp"
+            android:horizontalSpacing="80dp"
+            android:gravity="center"
+            android:layout_below="@+id/coins">
+        </GridView>
+
+</RelativeLayout>

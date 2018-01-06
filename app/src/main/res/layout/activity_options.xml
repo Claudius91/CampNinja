@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dojo10"
+    tools:context="com.example.sven.ninja_test.OptionsActivity">
+
+    <ImageView
+        android:id="@+id/tafellink"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="63dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="98dp"
+        app:srcCompat="@drawable/blackboard" />
+
+    <ImageView
+        android:id="@+id/howto"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="11dp"
+        app:srcCompat="@drawable/howto"
+        android:layout_alignTop="@+id/tafellink"
+        android:layout_alignLeft="@+id/tafellink"
+        android:layout_alignStart="@+id/tafellink" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tafellink"
+        android:layout_alignStart="@+id/tafellink"
+        android:layout_below="@+id/tafellink"
+        android:layout_marginTop="20dp"
+        android:checked="false"
+        android:shadowColor="@color/braun"
+        android:shadowRadius="25"
+        android:text="Smoke : "
+        android:textColor="@color/weiß"
+        android:textSize="25sp"
+        android:theme="@style/AppTheme"
+        tools:checked="false" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:checked="false"
+        android:text="Sounds :  "
+        android:textSize="25sp"
+        android:textColor="@color/weiß"
+        android:shadowColor="@color/braun"
+        android:shadowRadius="25"
+        android:theme="@style/AppTheme"
+        tools:checked="false"
+        android:layout_below="@+id/switch1"
+        android:layout_alignLeft="@+id/switch1"
+        android:layout_alignStart="@+id/switch1" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:checked="false"
+        android:text="Music :   "
+        android:textSize="25sp"
+        android:textColor="@color/weiß"
+        android:shadowColor="@color/braun"
+        android:shadowRadius="25"
+        android:theme="@style/AppTheme"
+        tools:checked="false"
+        android:layout_below="@+id/switch2"
+        android:layout_alignLeft="@+id/switch2"
+        android:layout_alignStart="@+id/switch2" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:padding="4dip"
+        android:background="@drawable/button"
+        android:text="Reset"
+        android:layout_below="@+id/switch3"
+        android:layout_alignLeft="@+id/switch3"
+        android:layout_alignStart="@+id/switch3"
+        />
+
+    <Button
+        android:id="@+id/statistik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="Statistics"
+        android:layout_alignBaseline="@+id/delete"
+        android:layout_alignBottom="@+id/delete"
+        android:layout_toRightOf="@+id/switch2"
+        android:layout_toEndOf="@+id/switch2"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp" />
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context="com.example.sven.movielist.MainActivity">
+
+
+
+
+<item
+    android:id="@+id/action_add"
+    android:title="Add"
+    android:icon="@drawable/stern_icon"
+    app:showAsAction="always"
+    >
+    <group
+        android:id="@+id/group_one"
+
+        >
+<menu>
+    <item
+        android:id="@+id/weapons"
+        android:title="Weapons"
+        app:showAsAction="always"
+        >
+
+    </item>
+    <item
+        android:id="@+id/Move_to_watched"
+        android:title="Watched"
+        app:showAsAction="always"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/Move_to_Bookmark"
+        android:title="Bookmark"
+        app:showAsAction="always"
+        >
+
+    </item>
+</menu>
+    </group>
+    </item>
+</menu>
